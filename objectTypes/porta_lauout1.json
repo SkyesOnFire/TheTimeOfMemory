@@ -1,0 +1,88 @@
+{
+	"name": "porta_lauout1",
+	"plugin-id": "Sprite",
+	"sid": 523777661319191,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 118,
+						"height": 584,
+						"originX": -6.61864406779661,
+						"originY": 0.666095890410959,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 494599,
+						"collisionPoly": {
+							"points": [
+								0.1271186440677966,
+								0.003424657534246575,
+								0.9830508474576272,
+								0.13527397260273974,
+								0.9661016949152542,
+								0.9982876712328768,
+								0.09322033898305085,
+								0.7431506849315068
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 209874857721049,
+				"name": "fechada",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 277,
+						"height": 584,
+						"originX": -2.2454873646209386,
+						"originY": 0.666095890410959,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6396049,
+						"collisionPoly": {
+							"points": [
+								0.628158844765343,
+								0.003424657534246575,
+								0.9927797833935018,
+								0.13527397260273974,
+								0.9855595667870036,
+								0.9982876712328768,
+								0.007220216606498195,
+								0.9417808219178082,
+								0.010830324909747292,
+								0.14383561643835616
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 985896497406871,
+				"name": "aberta",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"name": "LIVROS",
+	"plugin-id": "Sprite",
+	"sid": 566092696011292,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 168,
+						"height": 130,
+						"originX": 5.666666666666667,
+						"originY": -1.4461538461538461,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1147407,
+						"collisionPoly": {
+							"points": [
+								0.35714285714285715,
+								0.023076923076923078,
+								0.9702380952380952,
+								0.2,
+								0.9761904761904762,
+								0.6384615384615384,
+								0.6964285714285715,
+								0.9769230769230769,
+								0.011904761904761904,
+								0.7769230769230769
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 907629228883884,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

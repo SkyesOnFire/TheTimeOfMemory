@@ -1,0 +1,90 @@
+{
+	"name": "GELADEIRA",
+	"plugin-id": "Sprite",
+	"sid": 861004327691311,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 192,
+						"height": 438,
+						"originX": -2.2135416666666665,
+						"originY": 1.1803652968036529,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7956781,
+						"collisionPoly": {
+							"points": [
+								0.125,
+								0.0045662100456621,
+								0.9947916666666666,
+								0.1232876712328767,
+								0.8854166666666666,
+								0.997716894977169,
+								0.140625,
+								0.9680365296803651,
+								0.015625,
+								0.8333333333333334
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 821305166328730,
+				"name": "fechada",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 200,
+						"height": 450,
+						"originX": -2.125,
+						"originY": 1.1488888888888888,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6113501,
+						"collisionPoly": {
+							"points": [
+								0.12,
+								0.0044444444444444444,
+								0.955,
+								0.12,
+								0.815,
+								0.9955555555555555,
+								0.135,
+								0.9422222222222221,
+								0.015,
+								0.8111111111111111
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 409645282874483,
+				"name": "aberta",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

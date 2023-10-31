@@ -1,0 +1,384 @@
+{
+	"name": "Folha de eventos 1",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "temChavelayout1",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 316673715085258
+		},
+		{
+			"eventType": "variable",
+			"name": "Libera_folhas",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 616147194878689
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "MOVIMENTAÇÃO",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 577315919042347,
+							"parameters": {
+								"mouse-button": "right",
+								"click-type": "clicked"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "JOGADOR",
+							"sid": 836952177090457,
+							"parameters": {
+								"x": "Mouse.AbsoluteX",
+								"y": "Mouse.AbsoluteY"
+							}
+						}
+					],
+					"sid": 308347857220564
+				}
+			],
+			"sid": 167367260655728
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "TRANSIÇÃO DE LEVELS",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 627375662102724,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked"
+							}
+						},
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 156247257430856,
+							"parameters": {
+								"object": "porta_lauout1"
+							}
+						},
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 581038743129950,
+							"parameters": {
+								"variable": "temChavelayout1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "porta_lauout1",
+							"sid": 254011686888520,
+							"parameters": {
+								"animation": "\"aberta\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 981313945308869,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "go-to-nextprevious-layout",
+							"objectClass": "System",
+							"sid": 897142548743375,
+							"parameters": {
+								"which": "next"
+							}
+						}
+					],
+					"sid": 489600943440078
+				}
+			],
+			"sid": 311976061105938
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "INTERAÇÕES LAYOUT 1",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 569214951440095,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked"
+							}
+						},
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 988663706595612,
+							"parameters": {
+								"object": "GELADEIRA"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Texto_GELADEIRA",
+							"sid": 666493740507582,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "GELADEIRA",
+							"sid": 219650133157341,
+							"parameters": {
+								"animation": "\"aberta\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 174670275971058
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 865557889715846,
+							"parameters": {
+								"object": "GELADEIRA"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Texto_GELADEIRA",
+							"sid": 332469046465563,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "GELADEIRA",
+							"sid": 193683780940906,
+							"parameters": {
+								"animation": "\"fechada\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 175519335632006
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 524192955547626,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked"
+							}
+						},
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 705264774656271,
+							"parameters": {
+								"object": "RADIO"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Texto_RELOGIO",
+							"sid": 376970677186751,
+							"parameters": {
+								"visibility": "visible"
+							}
+						}
+					],
+					"sid": 241916870147762
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 260845859585618,
+							"parameters": {
+								"object": "RADIO"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Texto_RELOGIO",
+							"sid": 120408515776265,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 790104414678315
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 352527359408011,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked"
+							}
+						},
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 779014467699553,
+							"parameters": {
+								"object": "LIVROS"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Texto_LIVROS",
+							"sid": 497939635558309,
+							"parameters": {
+								"visibility": "visible"
+							}
+						}
+					],
+					"sid": 717723382066508
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 965936436712765,
+							"parameters": {
+								"object": "LIVROS"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Texto_LIVROS",
+							"sid": 684483887026086,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 986846582913211
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 870814985929440,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked"
+							}
+						},
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 639136132115237,
+							"parameters": {
+								"object": "chaves"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 368059392768169,
+							"parameters": {
+								"variable": "temChavelayout1",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "chaves",
+							"sid": 727972598047988,
+							"parameters": {
+								"x": "140",
+								"y": "950"
+							}
+						}
+					],
+					"sid": 228448037176128
+				}
+			],
+			"sid": 830594510430086
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "FUNCIONALIDADE DE JORNAL",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [],
+			"sid": 693932743270947
+		}
+	],
+	"sid": 795513746189626
+}
