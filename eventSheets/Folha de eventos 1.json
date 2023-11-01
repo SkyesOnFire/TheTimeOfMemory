@@ -13,7 +13,27 @@
 		},
 		{
 			"eventType": "variable",
-			"name": "Libera_folhas",
+			"name": "JournalAberto",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 111985671863365
+		},
+		{
+			"eventType": "variable",
+			"name": "pagina2",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 742630822320555
+		},
+		{
+			"eventType": "variable",
+			"name": "pagina1",
 			"type": "number",
 			"initialValue": "0",
 			"comment": "",
@@ -376,7 +396,82 @@
 			"title": "FUNCIONALIDADE DE JORNAL",
 			"description": "",
 			"isActiveOnStart": true,
-			"children": [],
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 835729089214113,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked"
+							}
+						},
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 477678690737569,
+							"parameters": {
+								"object": "journal"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-interactive",
+							"objectClass": "System",
+							"sid": 895289542844383,
+							"parameters": {
+								"layer": "\"JournalLayer\"",
+								"interactive": true
+							}
+						},
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 444571445128889,
+							"parameters": {
+								"layer": "\"JournalLayer\"",
+								"visibility": "visible"
+							}
+						}
+					],
+					"sid": 253792566527307
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-clicked",
+							"objectClass": "JournalFechar",
+							"sid": 253280305438378
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 947592862235728,
+							"parameters": {
+								"layer": "\"JournalLayer\"",
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-layer-interactive",
+							"objectClass": "System",
+							"sid": 652002729663863,
+							"parameters": {
+								"layer": "\"JournalLayer\"",
+								"interactive": false
+							}
+						}
+					],
+					"sid": 239107473097721
+				}
+			],
 			"sid": 693932743270947
 		}
 	],

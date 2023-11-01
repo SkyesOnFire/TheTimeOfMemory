@@ -5,7 +5,125 @@
 			"name": "Layer 0",
 			"overriden": 0,
 			"subLayers": [],
-			"instances": [],
+			"instances": [
+				{
+					"type": "journal",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 14,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 510,
+						"y": 514,
+						"width": 1024,
+						"height": 1024,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Pagina1",
+					"properties": {
+						"text": "Text",
+						"enable-bbcode": true,
+						"font": "Bradley Hand",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 15,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 124,
+						"y": 137,
+						"width": 339,
+						"height": 737,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Pagina2",
+					"properties": {
+						"text": "Text",
+						"enable-bbcode": true,
+						"font": "Bradley Hand",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 16,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 545,
+						"y": 134,
+						"width": 360,
+						"height": 746,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
 			"sid": 235153150777279,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
@@ -38,8 +156,8 @@
 	"sid": 481598487252853,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 1920,
-	"height": 1080,
+	"width": 1024,
+	"height": 1024,
 	"unboundedScrolling": false,
 	"vpX": 0.5,
 	"vpY": 0.5,

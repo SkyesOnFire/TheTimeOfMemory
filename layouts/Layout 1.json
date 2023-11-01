@@ -428,6 +428,35 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "journal",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 18,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1860,
+						"y": 1024,
+						"width": 100,
+						"height": 100,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 649221905238045,
@@ -457,10 +486,267 @@
 			"blendMode": "normal",
 			"zElevation": 0,
 			"global": false
+		},
+		{
+			"name": "JournalLayer",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "journal",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 19,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 960,
+						"y": 544,
+						"width": 1184,
+						"height": 928,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "JournalProximo",
+					"properties": {
+						"type": "button",
+						"text": "Próximo",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": "button-19"
+					},
+					"uid": 20,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1184,
+						"y": 800,
+						"width": 224,
+						"height": 64,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "Pagina1",
+					"properties": {
+						"text": "Text",
+						"enable-bbcode": true,
+						"font": "Bradley Hand",
+						"size": 40,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 21,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 512,
+						"y": 224,
+						"width": 384,
+						"height": 544,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Pagina2",
+					"properties": {
+						"text": "Text",
+						"enable-bbcode": true,
+						"font": "Bradley Hand",
+						"size": 40,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 22,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1024,
+						"y": 224,
+						"width": 360,
+						"height": 544,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "JournalAnterior",
+					"properties": {
+						"type": "button",
+						"text": "Anterior",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": "button-19"
+					},
+					"uid": 24,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 512,
+						"y": 800,
+						"width": 224,
+						"height": 64,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "JournalFechar",
+					"properties": {
+						"type": "button",
+						"text": "X",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": "button-19"
+					},
+					"uid": 23,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1376,
+						"y": 192,
+						"width": 64,
+						"height": 64,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				}
+			],
+			"sid": 285713936525519,
+			"effectTypes": [],
+			"isInitiallyVisible": false,
+			"isInitiallyInteractive": false,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
 		}
 	],
 	"sid": 276836881977454,
-	"nonworld-instances": [],
+	"nonworld-instances": [
+		{
+			"type": "EntradasDoJournal",
+			"properties": {
+				"width": 255,
+				"height": 1,
+				"depth": 1
+			},
+			"uid": 17,
+			"instanceVariables": {
+				"Variable1": 0
+			}
+		}
+	],
 	"effectTypes": [],
 	"width": 1920,
 	"height": 1080,
