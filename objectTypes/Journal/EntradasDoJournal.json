@@ -1,0 +1,15 @@
+{
+	"name": "EntradasDoJournal",
+	"plugin-id": "Arr",
+	"sid": 395038532857614,
+	"isGlobal": true,
+	"instanceVariables": [
+		{
+			"name": "Variable1",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 630519753930198
+		}
+	]
+}
